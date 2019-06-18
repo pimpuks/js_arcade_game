@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  margin: 0 auto;
+  max-width: 540px;
+  width: 90%;
+}
+@media only screen and (min-width: 601px) {
+  .container {
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 70%;
+  }
+}
+
+#restart {
+  cursor: pointer;
+}
