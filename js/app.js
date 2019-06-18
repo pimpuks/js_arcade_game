@@ -149,11 +149,8 @@ class Player extends Object {
           this.moveRight();
           break;
       }
-      // console.log('check heart collection');
       hearts.forEach(function(heart, index, hearts) {
         player.detectCollection(heart, index, hearts);
-        // console.log('after detect collection');
-        // console.log(hearts);
       });
     }
   }
